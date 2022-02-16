@@ -132,11 +132,123 @@
     margin-left: 50%;
     margin-right: 5%;
     margin-top: -480px;
-    background-color: chocolate;
     color:cornsilk;
-    word-spacing: 500px;
-    font-size: 2px;
-    padding:5px;
-    animation-name: Rightpane;
-    animation-duration: 4s;
+   
 }
+
+.react {
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+    height: 10px;
+  }
+
+  .javascript, .html, .css, .python, .django{
+      margin-top: 10px;
+      font-family: Arial, Helvetica, sans-serif;
+      border-collapse: collapse;
+      width: 100%;
+      height: 10px;
+  }
+  
+
+
+.react th, .javascript th, .html th, 
+.css th, .python th, .django th {
+    border: 1px none #ddd;
+    padding: 8px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    text-align: left;
+    background-color: chocolate;
+    color: white;
+  }
+
+   
+
+  #react1 {
+      width:15%;
+      background-color: saddlebrown;
+      padding-left:8px;
+  }
+
+  #react2{
+      width:60%;
+      background-color:sienna;
+  }
+
+  #react3 {
+    width:25%;
+    text-align: right;
+    background-color: rgb(231, 165, 98);
+    padding:2px;
+}
+
+
+  #js1{
+    width:15%;
+    background-color: saddlebrown;
+  }
+  #js2{
+    width:65%;
+    background-color:sienna;
+  }
+ 
+  #js3{
+      width: 20%;
+      text-align: right;
+      background-color: rgb(231, 165, 98);
+      padding:0px;
+  }
+
+
+  #html1, #css1{
+    width:15%;
+    background-color: saddlebrown;
+    padding-left:8px;
+  }
+
+  #html2, #css2{
+    width:70%;
+    background-color:sienna;
+  }
+
+  #html3, #css3{
+    width:15%;
+    text-align: right;
+    background-color: rgb(231, 165, 98);
+    padding:2px;
+}
+
+#py1{
+    width:15%;
+    background-color: saddlebrown;
+  }
+  #py2{
+    width:35%;
+    background-color:sienna;
+  }
+ 
+  #py3{
+      width: 50%;
+      text-align: right;
+      background-color: rgb(231, 165, 98);
+      padding:0px;
+  }
+
+
+  #dj1{
+    width:15%;
+    background-color: saddlebrown;
+  }
+  #dj2{
+    width:35%;
+    background-color:sienna;
+  }
+ 
+  #dj3{
+      width: 50%;
+      text-align: right;
+      background-color: rgb(231, 165, 98);
+      padding:0px;
+  }

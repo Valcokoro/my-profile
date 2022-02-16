@@ -22,9 +22,54 @@ const Middle = () =>(
     </div>
 
    <div className='rightpane'>
-    <h4>React.js </h4> 
-    <p></p>
-    <h4>80%</h4>
+    <table className='react'>
+    <tr>
+    <th id='react1'> React.js </th> 
+    <th id='react2'> </th>
+    <th id='react3'> 80%</th>
+    </tr>
+    </table>
+
+    <table className='javascript'>
+    <tr>
+    <th id='js1'> JavaScript </th> 
+    <th id='js2'> </th>
+    <th id='js3'> 85%</th>
+    </tr>
+    </table>
+
+    <table className='html'>
+    <tr>
+    <th id='html1'> HTML </th> 
+    <th id='html2'> </th>
+    <th id='html3'> 90%</th>
+    </tr>
+    </table>
+
+    <table className='css'>
+    <tr>
+    <th id='css1'> CSS </th> 
+    <th id='css2'> </th>
+    <th id='css3'> 90%</th>
+    </tr>
+    </table>
+
+    <table className='python'>
+    <tr>
+    <th id='py1'> Python </th> 
+    <th id='py2'> </th>
+    <th id='py3'> 55%</th>
+    </tr>
+    </table>
+
+
+    <table className='django'>
+    <tr>
+    <th id='dj1'> Django </th> 
+    <th id='dj2'> </th>
+    <th id='dj3'> 55%</th>
+    </tr>
+    </table>
     
 
    </div>
