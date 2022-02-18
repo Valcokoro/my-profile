@@ -3,6 +3,7 @@ import ReactDOM from 'react-dom';
 import Intro from './Intro';
 import Middle from './Middle';
 import './index.css';
+import Projects from './Projects';
 
 
 
@@ -11,12 +12,13 @@ import './index.css';
     state={first:"Welcome on Board"}
     
     render() {
-    return( 
+    return ( 
     <div>
     <Intro caption={caption}/>
     <Middle/>
+    <Projects />
     </div>
-    )
+    );
     
      
    

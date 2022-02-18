@@ -2,6 +2,7 @@ import React from 'react';
 import mypics from '../src/mypics.jpeg';
 import responsive from '../src/responsive.svg';
 import dynamic from '../src/dynamic.svg';
+import resume from '../src/resume.pdf';
 
 
 
@@ -70,6 +71,8 @@ const Middle = () =>(
     <th id='dj3'> 55%</th>
     </tr>
     </table>
+
+    <button id='resume'><a href={resume} id='resume1' download>Download CV</a></button>
     
 
    </div>
