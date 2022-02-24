@@ -43,26 +43,27 @@
 .first{
     background-image: url('SE2.jpg');
     height:550px;
-    width: 700px;
+    width: 900px;
 }
       
 .Name{
-        font-size: 26px;
-        font-family:fantasy;
+        font-size: 25px;
+        font-weight: 700;
+        font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
         color:whitesmoke;
         Animation: Name;
         animation-duration: 4s;
-        padding-left: 20px;
+        padding-left: 15px;
         padding-top:60px;
     }
 
 .Caption{
         font-size: 27px;
-        font-family: cursive;
+        font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
         color: cornsilk;
         padding-top: 80px;
         text-align: justify;
-        margin-left: 27px;
+        margin-left: 45px;
         
     }
 
@@ -71,14 +72,14 @@
         font-family:monospace;
         color: cornsilk;
         padding-top: 70px;
-        padding-right:280px;
+        padding-right:520px;
     }
 
  #arrow{
     color:white;
     height:80px;
     width:30px;
-    margin-left:170px  ;
+    margin-left:150px  ;
     margin-top: 200px;
         
       }
