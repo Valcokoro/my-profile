@@ -1,14 +1,240 @@
+
+
+
 .first{
     background-image: url('SE2.jpg');
-    height:600px;
+    height:620px;
+    width: available;
 }
 
+.Name{
+    font-weight: 50;
+    font-size: 50px;
+    font-family:fantasy;
+    color: whitesmoke;
+    Animation: Name;
+    animation-duration: 4s;
+    padding-left: 220px;
+    padding-top:60px;
+}
 
+.Caption{
+    font-size: 70px;
+    font-family: cursive;
+    color: cornsilk;
+    padding-top: 130px;
+    text-align: justify;
+    margin-left: 140px;
+    
+}
+
+#arrow{
+    color:white;
+    height:80px;
+    width:30px;
+    margin-left: 50%;
+    margin-top: 200px;
+    
+}
+
+@media (min-width:100px) and (max-width:600px){
+
+    
+.first{
+    background-image: url('SE2.jpg');
+    height:550px;
+    width: 700px;
+}
+      
+.Name{
+        font-size: 26px;
+        font-family:fantasy;
+        color:whitesmoke;
+        Animation: Name;
+        animation-duration: 4s;
+        padding-left: 20px;
+        padding-top:60px;
+    }
+
+.Caption{
+        font-size: 27px;
+        font-family: cursive;
+        color: cornsilk;
+        padding-top: 80px;
+        text-align: justify;
+        margin-left: 27px;
+        
+    }
+
+    .Welcome{
+        font-size: 10px;
+        font-family:monospace;
+        color: cornsilk;
+        padding-top: 70px;
+        padding-right:280px;
+    }
+
+ #arrow{
+    color:white;
+    height:80px;
+    width:30px;
+    margin-left:170px  ;
+    margin-top: 200px;
+        
+      }
+    
+}
+
+ @media (min-width:601px) and (max-width:700px){
+
+    
+.first{
+        background-image: url('SE2.jpg');
+        height:640px;
+        width: 1100px;
+        }
+              
+.Name{
+         font-size: 30px;
+         font-family:fantasy;
+         color:whitesmoke;
+         Animation: Name;
+         animation-duration: 4s;
+         padding-left: 130px;
+         padding-top:60px;
+            }
+
+.Caption{
+         font-size: 35px;
+         font-family: cursive;
+         color: cornsilk;
+         padding-top: 100px;
+         text-align: justify;
+         margin-left: 110px;
+                
+            }
+            
+.Welcome{
+        
+    font-size: 5px;
+    font-family:monospace;
+    color: cornsilk;
+    padding-top: 70px;
+    padding-right:400px;
+            }
+
+#arrow{
+     color:white;
+     height:80px;
+     width:30px;
+     margin-left:330px  ;
+     margin-top: 270px;
+                    
+                  }
+            
+            
+        }
+
+    @media (min-width:701px) and (max-width:1000px){
+
+    
+     .first{
+            background-image: url('SE2.jpg');
+            height:640px;
+            width: 1100px;
+                    }
+                          
+      .Name{
+            font-size: 30px;
+            font-family:fantasy;
+             color:whitesmoke;
+             Animation: Name;
+             animation-duration: 4s;
+             margin-left: -330px;
+             padding-top:60px;
+                        }
+            
+      .Caption{
+             font-size: 35px;
+             font-family: cursive;
+             color: cornsilk;
+             padding-top: 100px;
+             text-align: justify;
+             margin-left: -110px;
+                            
+                        }
+                        
+      .Welcome{
+                    
+             font-size: 5px;
+             font-family:monospace;
+             color: cornsilk;
+             padding-top: 70px;
+             margin-left:-490px;
+                        }
+            
+      #arrow{
+             color:white;
+             height:80px;
+             width:30px;
+             margin-left:60px ;
+             margin-top: 270px;
+                                
+                              }
+                        
+                        
+                    }
+
+ @media (min-width:1001px) and (max-width:1300px){
+
+    
+ .first{
+        background-image: url('SE2.jpg');
+        height:640px;
+        width: available;
+         }
+                      
+ .Name{
+        font-size: 30px;
+        font-family:fantasy;
+        color:whitesmoke;
+        Animation: Name;
+        animation-duration: 4s;
+        padding-left: 90px;
+        padding-top:60px;
+               }
+        
+ .Caption{
+        font-size: 35px;
+        font-family: cursive;
+        color: cornsilk;
+        padding-top: 100px;
+        text-align: justify;
+        margin-left: 80px;
+                       
+     }
+
+ .Welcome{
+        font-size: 10px;
+        font-family:monospace;
+        color: cornsilk;
+        padding-top: 70px;
+        padding-right:270px;
+    }
+    
+     
+
+       
+                               
+     }
+                    
+                      
+        
 
 
 @keyframes Name {
-    0% { font-size: 10px }
-    25% { font-size: 40px }
+    0% { font-size: 40px }
+    25% { font-size: 10px }
 
 }
 
@@ -19,40 +245,13 @@
 }
 
 
-#arrow{
-    color:white;
-    height:80px;
-    width:30px;
-    margin-left: 50%;
-    margin-top: 200px;
-    
-}
+
 #mypics{
     height:300px;
     width:300px;
     
 }
 
-.Name{
-    font-size: 40px;
-    font-family:fantasy;
-    color: whitesmoke;
-    padding-top:40px;
-    text-align: center;
-    Animation: Name;
-    animation-duration: 4s;
-    
-}
-
-.Caption{
-    font-size: 70px;
-    font-family: cursive;
-    color: cornsilk;
-    padding-top: 60px;
-    text-align: justify;
-    margin-left: 140px;
-    
-}
 
 .Welcome{
     font-size: 20px;
@@ -310,3 +509,5 @@
   #project1{
       color: whitesmoke;
   }
+
+ 

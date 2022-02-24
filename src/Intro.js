@@ -20,10 +20,11 @@ function caption (){
  <section onLoad={caption} className='first'>
     <div className='ui container self'>
     <div className='Name'>Valentine Chukwuemeka Okoro</div>
-    <div className='Location'></div>
     <div className='Caption'> </div>
     <div className='Welcome'>Welcome to my web page </div>
+    <div className='arrow'>
     <a href><img src={arrow} id='arrow' Alt='arrow' /></a>
+    </div>
     </div>
     
  </section>
