@@ -25,9 +25,9 @@ const Middle = () =>(
    <div className='rightpane'>
     <table className='react'>
     <tr>
-    <th id='react1'> React.js </th> 
-    <th id='react2'> </th>
-    <th id='react3'> 80%</th>
+    <td id='react1'> React.js </td> 
+    <td id='react2'> </td>
+    <td id='react3'> 80%</td>
     </tr>
     </table>
 

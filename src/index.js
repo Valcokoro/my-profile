@@ -7,7 +7,7 @@ import Projects from './Projects';
 
 
 
-//const App = () =>{
+
     class App extends React.Component{
     state={first:"Welcome on Board"}
     
